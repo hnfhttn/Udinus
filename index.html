@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Append Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Append
+  * Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="data:image/jpeg;base64,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" class="img-fluid" alt="">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero" class="active">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#team">Team</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="login.html">Login</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section dark-background">
+
+      <img src="https://i.ibb.co/zVg6fSxm/depaan.jpg" alt="depaan" border="0"> </a>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10">
+            <h2 data-aos="fade-up" data-aos-delay="100">Universitas Dian Nuswantoro</h2>
+            <p data-aos="fade-up" data-aos-delay="200">Menjadi Universitas pilihan utama di bidang pendidikan dan kewirausahawan dan menyelanggarakan pendidikan tinggi dan mementingkan kualitas</p>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+ 
+
+    <!-- About Section -->
+<section id="about" class="about section light-background">
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row align-items-xl-center gy-5">
+
+      <div class="col-xl-5 content">
+        <h3>About Us</h3>
+        <h2>UDINUS</h2>
+        <p>Universitas Dian Nuswantoro,atau disingkat Udinus,merupakan perguruan tinggi swasta yang didirikan pada tanggal 30 Agustus 2001 di Semarang,berdasarkan SK Menteri Pendidikan Nasional Indonesia No. 169/D/0/2001</p>
+        <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+      </div>
+
+      <div class="col-xl-7">
+        <div class="row gy-4 icon-boxes">
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-box">
+              <img src="https://i.ibb.co/hR1h9sTN/teknik-removebg-preview.png" alt="teknik-removebg-preview" style="width: 80px; height: auto;">
+              <h3>Fakultas Teknik</h3>
+              <p>Menjadikan fakultas pilihan utama di bidang rekayasa teknologi terkini yang berwawasan internasional dan berjiwa technopreneurship</p>
+            </div>
+          </div> <!-- End Icon Box -->
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiV0Suba2-DA1huSIJuiYMGoQleazCwfkPhA&s" alt="Logo-FIK" style="width: 80px; height: auto;">
+              <h3>Fakultas Kesehatan</h3>
+              <p>Menjadi pilihan pertama dalam pendidikan kesehatan berbasis teknologi informasi dengan semangat kewirausahaan</p>
+            </div>
+          </div> <!-- End Icon Box -->
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon-box">
+              <img src="https://i.ibb.co/6ckw2PDT/Logo-FEB.png" alt="Logo-FEB" style="width: 80px; height: auto;">
+              <h3>Fakultas Ekonomi & Bisnis</h3>
+              <p>Untuk menjadi lembaga yang unggul dan inovatif dalam bidang ekonomi, bisnis, dan kewirausahaan.</p>
+            </div>
+          </div> <!-- End Icon Box -->
+
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKgIj3nxXbnDytSn6Nc7KZZnEEEW45_h_8xg&s" alt="Logo-FIK" style="width: 80px; height: auto;">
+              <h3>Fakultas Ilmu Komputer</h3>
+              <p>Untuk mengembangkankeilmuan komunikasi dengan keunggulan teknologi, seni, dan creativepreneurship.</p>
+            </div>
+          </div> <!-- End Icon Box -->
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section><!-- /About Section -->
+
+  
+
+    <!-- Team Section -->
+    <section id="team" class="team section light-background">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+        <p>Para pendamping saya</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4 col-md-4 member" data-aos="fade-up" data-aos-delay="100">
+            <div class="member-img">
+              <img src="https://i.ibb.co/JRJ23y7r/rektor.jpg" alt="rektor" class="img-fluid"></a>
+              <div class="social">
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Dr. Pulung Nurtantio Andono, S.T., M.Kom.</h4>
+              <span>Rektor Udinus</span>
+              <p>Pria yang akrab disapa Mas Prof. Pulung itu merupakan Rektor terpilih Udinus untuk masa jabatan 2025-2029.</p>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-4 member" data-aos="fade-up" data-aos-delay="200">
+            <div class="member-img">
+              <img src="https://i.ibb.co/JWCNsrXd/fotopakari.jpg" alt="fotopakari"  class="img-fluid"></a>
+              <div class="social">
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>DR.If.M Ary Heryanto S.T., M.ENG.</h4>
+              <span>Kepala Prodi</span>
+              <p>Pembimbing saat PKL di Udinus</p>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-4 member" data-aos="fade-up" data-aos-delay="300">
+            <div class="member-img">
+              <img src="<a href="https://ibb.co/PZtwSWZ9"><img src="https://i.ibb.co/PZtwSWZ9/fotopakzenal.jpg" alt="fotopakzenal">
+              <div class="social">
+                <a href="#"><i class="bi bi-twitter-x"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Ir.Zaenal Arifin S.T., M.Eng, IPM.</h4>
+              <span>Sekretaris Prodi</span>
+              <p>Pembimbing saat PKL di Udinus.</p>
+            </div>
+          </div><!-- End Team Member -->
+
+        <div class="col-lg-4 col-md-4 member" data-aos="fade-up" data-aos-delay="400">
+  <div class="member-img">
+<img src="https://i.ibb.co/KSjLXsz/gue-gemez.jpg" alt="gue-gemez"  class="img-fluid"> </a>
+    <div class="social">
+      <a href="#"><i class="bi bi-twitter-x"></i></a>
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>
+      <a href="#"><i class="bi bi-linkedin"></i></a>
+    </div>
+  </div>
+  <div class="member-info text-center">
+    <h4>Ahmad Dahlan Setyawan</h4>
+    <span>Progammer</span>
+    <p>Inilah saya</p>
+  </div>
+</div><!-- End Team Member -->
+
+    
+      </div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/cta-bg.jpg" alt="">
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Login to Acces</h3>
+              <p>Jika kalian ingin berkenalan dengan para siswa PKL di Udinus, ayo segera login!.</p>
+              <a class="cta-btn" href="login.html">Login</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+   
+
+  
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Hubungi Kami </p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="200">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>Jl. Imam Bonjol No.207, Pendrikan Kidul, Kec. Semarang Tengah, Kota Semarang, Jawa Tengah 50131</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="300">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>(024) 351 7261</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="400">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>sekretariat@dinus.ac.id</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item" data-aos="fade" data-aos-delay="500">
+                  <i class="bi bi-clock"></i>
+                  <h3>Open Hours</h3>
+                  <p>Everyday</p>
+                  <p>07:00AM - 05:00PM</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Udinus</span>
+          </a>
+          <p>Menjadi Universitas pilihan utama di bidang pendidikan dan kewirausahawan dan menyelanggarakan pendidikan tinggi dan mementingkan kualitas</p>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="#">Web Design</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Product Management</a></li>
+            <li><a href="#">Marketing</a></li>
+            <li><a href="#">Graphic Design</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>Jl. Imam Bonjol No.207, Pendrikan Kidul </p>
+          <p> Kec. Semarang Tengah, Kota Semarang</p>
+          <p>Jawa Tengah 50131</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>(024) 351 7261</span></p>
+          <p><strong>Email:</strong> <span>sekretariat@dinus.ac.id</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="sitename">UDINUS</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
